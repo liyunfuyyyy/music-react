@@ -7,7 +7,6 @@ import LYFThemeHeaderRCM from '@/components/theme-header-rcm'
 import { NEW_ALBUM_LIMIT } from '@/common/constants'
 import { getNewAlbumAction } from '../../store/actionCreators'
 import { AlbumWrapper } from './style'
-import { getNewAlbums } from '@/service/recommend'
 export default memo(function LYFNewAlbum() {
   const { newAlbums } = useSelector(
     (state) => ({
