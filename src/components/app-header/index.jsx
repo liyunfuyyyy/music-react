@@ -25,7 +25,7 @@ export default memo(function LYFAppHeader() {
     <HeaderWrapper>
       <div className="content wrap-v1">
         <HeaderLeft>
-          <a href="" className="logo sprite_01">
+          <a href="/#" className="logo sprite_01">
             音乐
           </a>
           <div className="select-list">
