@@ -3,7 +3,6 @@ import React, { memo } from 'react'
 import { getSizeImage } from '@/utils/format-utils'
 
 import { TopRankingWrapper } from './style'
-import { useDispatch } from 'react-redux'
 
 export default memo(function LYFTopRanking(props) {
   // props and state
