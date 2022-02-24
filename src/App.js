@@ -4,7 +4,7 @@ import { BrowserRouter, useRoutes } from 'react-router-dom'
 import routes from '@/router'
 import store from '@/store'
 import LYFAppHeader from 'components/app-header'
-
+import LYFAppFooter from 'components/app-footer'
 function RenderRoutes() {
   const element = useRoutes(routes)
   return element
@@ -17,6 +17,7 @@ export default memo(function App() {
         <React.Suspense fallback={<h2>Loading……</h2>}>
           <RenderRoutes />
         </React.Suspense>
+        <LYFAppFooter />
       </BrowserRouter>
     </Provider>
   );
