@@ -11,7 +11,6 @@ export default memo(function LYFTopRanking(props) {
   const { tracks = [] } = info
 
   // redux hooks
-  const dispatch = useDispatch()
 
   // other handle
 
