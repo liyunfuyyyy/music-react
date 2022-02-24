@@ -54,17 +54,17 @@ export const getNewAlbumAction = (limit) => {
   }
 }
 
-export const getTopListAction = (idx) => {
+export const getTopListAction = (id) => {
   return dispatch => {
-    getTopList(idx).then(res => {
-      switch (idx) {
-        case 0:
+    getTopList(id).then(res => {
+      switch (id) {
+        case 19723756:
           dispatch(changeUpRankingAction(res))
           break
-        case 2:
+        case 3779629:
           dispatch(changeNewRankingAction(res))
           break
-        case 3:
+        case 2884035:
           dispatch(changeOriginRankingAction(res))
           break
         default:
