@@ -1,4 +1,4 @@
-export const headerLink = [
+export const headerLinks = [
   {
     title: "发现音乐",
     link: "/discover"
@@ -25,7 +25,7 @@ export const headerLink = [
   }
 ]
 
-export const footerLink = [
+export const footerLinks = [
   {
     title: "服务条款",
     link: "https://st.music.163.com/official-terms/service"
@@ -49,7 +49,7 @@ export const footerLink = [
 ]
 
 
-export const footerImage = [
+export const footerImages = [
   {
     link: "https://music.163.com/st/userbasic#/auth"
   },
@@ -65,7 +65,7 @@ export const footerImage = [
 ]
 
 // discover 中的数据
-export const discoverMenu = [
+export const discoverMenus = [
   {
     title: "推荐",
     link: "/discover/recommend"
